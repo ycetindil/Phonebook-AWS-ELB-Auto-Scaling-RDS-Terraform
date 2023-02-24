@@ -18,7 +18,7 @@ variable "github_token_filename" {
 
 variable "github_repo_name" {
   description = "Should match with 'phonebook-app.py' line #13"
-  default     = "Terraform-Azure-Load-Balancer-VMSS-MySQL-Phonebook-App"
+  default     = "Terraform-AWS-ELB-Auto-Scaling-MySQL-Phonebook-App"
 }
 
 variable "github_repo_branch" {
