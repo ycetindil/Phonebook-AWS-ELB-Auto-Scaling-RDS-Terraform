@@ -31,7 +31,7 @@ The Phonebook Application aims to create a phonebook application in Python and d
 | Input in Username Field | Type     | Format to Convert                                         |
 | :---------------------- | :------- | :-------------------------------------------------------- |
 | ''                      | `string` | Warning -> 'Invalid input: Name can not be empty'         |
-| enes                    | `string` | Enes                                                      |
+| coy                     | `string` | Coy                                                       |
 | joHn doE                | `string` | John Doe                                                  |
 | 62267                   | `string` | Warning -> 'Invalid input: Name of person should be text' |
 
