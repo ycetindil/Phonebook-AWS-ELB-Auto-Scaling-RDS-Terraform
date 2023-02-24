@@ -16,4 +16,4 @@ yum install git -y
 cd /home/ec2-user && git clone https://github.com/ycetindil/Terraform-AWS-ELB-Auto-Scaling-MySQL-Phonebook-App.git
 
 # Start the Phonebook Application
-python3 /home/ec2-user/terraform-alb-asg-app/phonebook-app.py
+python3 /home/ec2-user/Terraform-AWS-ELB-Auto-Scaling-MySQL-Phonebook-App/phonebook-app.py

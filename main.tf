@@ -80,7 +80,7 @@ resource "aws_db_instance" "db_server" {
   auto_minor_version_upgrade  = true
   backup_retention_period     = 0
   identifier                  = "${var.prefix}-db"
-  db_name                     = var.db_server_name
+  db_name                     = var.db_name
   engine                      = "mysql"
   engine_version              = "8.0.28"
   username                    = var.db_username

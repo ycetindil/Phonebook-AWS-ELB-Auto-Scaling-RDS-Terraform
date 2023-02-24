@@ -26,9 +26,9 @@ variable "github_repo_branch" {
 }
 
 # DB Server
-variable "db_server_name" {
-  description = "Should be unique"
-  default     = "ycetindilphonebookapp"
+variable "db_name" {
+  description = "Should match with 'phonebook-app.py' line #20"
+  default     = "phonebook"
 }
 
 variable "db_username" {
