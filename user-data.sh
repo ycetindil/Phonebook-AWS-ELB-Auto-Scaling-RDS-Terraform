@@ -13,7 +13,7 @@ pip3 install flask_mysql
 yum install git -y
 
 # Clone the repo
-cd /home/ec2-user && git clone https://github.com/ycetindil/Phonebook-AWS-ELB-Auto-Scaling-RDS-Terraform.git
+cd /home/ec2-user && git clone https://github.com/ycetindil/${repo_name}.git
 
 # Start the Phonebook Application
-python3 /home/ec2-user/Terraform-AWS-ELB-Auto-Scaling-MySQL-Phonebook-App/phonebook-app.py
+python3 /home/ec2-user/${repo_name}/phonebook-app.py

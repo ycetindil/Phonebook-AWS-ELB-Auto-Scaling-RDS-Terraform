@@ -13,7 +13,7 @@ variable "github_token_path" {
 }
 
 variable "github_token_filename" {
-  default = "github_token"
+  default = "github_token.txt"
 }
 
 variable "github_repo_name" {
